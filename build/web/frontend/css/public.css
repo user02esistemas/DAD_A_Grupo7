@@ -1,0 +1,29 @@
+.main-card { background: rgba(255,255,255,.97); border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,.3); max-width: 960px; width: 100%; margin: 40px auto; overflow: hidden; }
+.voto-card { background: #fff; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,.3); max-width: 700px; margin: 40px auto; }
+.login-card { background: #fff; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,.3); max-width: 440px; width: 100%; overflow: hidden; }
+.header { background: linear-gradient(135deg, #1a237e, #3949ab); padding: 28px 36px 24px; color: #fff; }
+.login-header { background: linear-gradient(135deg, #1a237e, #3949ab); padding: 28px 32px 24px; color: #fff; text-align: center; }
+.voto-header { background: linear-gradient(135deg, #1a237e, #3949ab); padding: 24px 32px 20px; color: #fff; border-radius: 20px 20px 0 0; }
+.header h1 { font-weight: 700; font-size: 1.6rem; margin-bottom: 2px; }
+.header p, .login-header p { opacity: .85; font-size: .85rem; margin-bottom: 0; }
+.body { padding: 28px 36px 32px; }
+.login-body { padding: 28px 32px 32px; }
+.voto-body { padding: 28px 32px 32px; }
+.card { border: none; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+.card-header { background: transparent; border-bottom: 1px solid #e9ecef; font-weight: 600; padding: 16px 20px; }
+.card-body { padding: 20px; }
+.table th { font-weight: 600; color: #495057; border-top: none; background: #f8f9fa; }
+.form-control, .form-select { border-radius: 10px; padding: 10px 14px; border: 1.5px solid #d1d5db; }
+.form-control:focus, .form-select:focus { border-color: #3949ab; box-shadow: 0 0 0 3px rgba(57,73,171,.15); }
+.btn-primary { background: #3949ab; border: none; border-radius: 10px; padding: 10px 24px; font-weight: 600; }
+.btn-primary:hover { background: #283593; }
+.btn-ingresar { background: #3949ab; border: none; border-radius: 10px; padding: 10px 24px; font-weight: 600; color: #fff; width: 100%; }
+.btn-ingresar:hover { background: #283593; color: #fff; }
+.candidato-card { border: 2px solid #e8eaf6; border-radius: 14px; padding: 14px; transition: all .2s; cursor: pointer; position: relative; }
+.candidato-card:hover { border-color: #3949ab; background: #f8f9ff; }
+.candidato-card.selected { border-color: #3949ab; background: #eef0ff; }
+.candidato-card .candidato-foto { width: 90px; height: 90px; object-fit: cover; border-radius: 50%; border: 2px solid #e8eaf6; margin-bottom: 8px; }
+.candidato-card .sin-foto { width: 70px; height: 70px; border-radius: 50%; background: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 1.6rem; margin: 0 auto 8px; }
+.candidato-card .check-icon { display: none; position: absolute; bottom: 8px; right: 8px; color: #3949ab; font-size: 1.2rem; }
+.candidato-card.selected .check-icon { display: block; }
+footer { text-align: center; font-size: .85rem; color: #6c757d; border-top: 1px solid #e9ecef; padding-top: 16px; margin-top: 24px; }
